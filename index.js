@@ -19,7 +19,7 @@ const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 
-const ownerNumber = ['94761864425']
+const ownerNumber = ['94755335072']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -75,9 +75,9 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins Installed SuccessFul ✅')
-console.log('DENETH-MD Connected to WhatsApp ✅')
+console.log('Connected to WhatsApp ✅')
 
-let up = `*𝘋𝘌𝘕𝘌𝘛𝘏-𝘔𝘋 𝘉𝘖𝘛 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘌𝘋*
+let up = `*𝘉𝘖𝘛 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘌𝘋*
 
 _Type .menu For Get Bot Menu_
 
@@ -94,19 +94,9 @@ _Type .settings For Customize Bot Settings Work For Owner Only_
 • OTHER MENU
 • SEARCH MENU
 • CONVERT MENU
+`;
 
-ꜰᴏʟʟᴏᴡ ᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ 🪀
-https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B
-
-ʙᴇᴛᴀ ᴛᴇꜱᴛɪɴɢ ɢʀᴏᴜᴘ⚡🚀
-https://chat.whatsapp.com/JzM1qIe9Dm401fxkIKpZNP
-
-ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ👨‍💻
-https://wa.me/94761864425
-
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-xᴅ ᴛᴇᴄʜ`;
-
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://github.com/Deneth400/DENETH-MD-HARD/blob/main/Images/DENETH-MD.jpg?raw=true` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://github.com/tigerbotz/all_img/blob/main/dY3Rxbp%20-%20Imgur.jpg?raw=true` }, caption: up })
 
 }
 })
